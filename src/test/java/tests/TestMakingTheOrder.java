@@ -13,7 +13,7 @@ public class TestMakingTheOrder {
     private WebDriver driver;
     @Before
     public void setPropAndStartBrowser() {
-        System.setProperty("webdriver.chrome.driver", "C:/WebDriver/bin/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://qa-scooter.praktikum-services.ru/");
     }
